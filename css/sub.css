@@ -130,6 +130,10 @@ body {
   overflow: hidden;
   width: 25%;
 }
+.item-list-item-last {
+  border: solid #000;
+  border-width: 1px 1px 1px 1px;
+}
 
 .item-list-con {
   width: 100%;
@@ -171,6 +175,7 @@ body {
 }
 .item-list-item figure .hoverimg {
   position: absolute;
+  top: 0;
   opacity: 0;
   background: var(--white);
   transition: 0.4s;
@@ -284,7 +289,7 @@ body {
   /* margin-top: 2.2rem; */
 }
 .btn-add-to-cart::after {
-  content: '';
+  content: "";
   display: block;
   width: 2rem;
   height: 2rem;
