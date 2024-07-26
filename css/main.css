@@ -140,13 +140,13 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 7.8rem 59.4rem 36.4rem;
   grid-template-areas:
-    'model title'
-    'model col-wrap'
-    'model con';
+    "model title"
+    "model col-wrap"
+    "model con";
   overflow: hidden;
 }
 .new-collection::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 7.8rem;
@@ -360,6 +360,9 @@ body {
 .best-sellers-list-item:hover .item1 {
   opacity: 0;
 }
+.best-sellers-list-item:hover .item-gamma {
+  opacity: 0;
+}
 
 .best-sellers-list-item:hover .best-sellers-list-hover {
   bottom: 0;
@@ -408,7 +411,7 @@ body {
   /* margin-top: 2.2rem; */
 }
 .btn-add-to-cart::after {
-  content: '';
+  content: "";
   display: block;
   width: 2rem;
   height: 2rem;
@@ -492,6 +495,13 @@ body {
   height: 1.4rem;
   background: url(../img/bk-next.png) no-repeat 50% / contain;
 } */
+.best-sellers-list-item figure .item-hover1-gamma {
+  position: absolute;
+  opacity: 0;
+  background: var(--white);
+  transition: 0.4s;
+  top: 0;
+}
 .design-ment {
   margin-top: 28rem;
 }
@@ -577,7 +587,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0%);
@@ -599,7 +609,7 @@ body {
   transition: 0.4s;
 }
 .btn-readmore::after {
-  content: '';
+  content: "";
   display: block;
   width: 4rem;
   height: 4rem;
@@ -692,9 +702,9 @@ body {
     grid-template-columns: 50% 50%;
     grid-template-rows: 5rem 81rem 34rem;
     grid-template-areas:
-      'title title'
-      'model col-wrap'
-      'con con';
+      "title title"
+      "model col-wrap"
+      "con con";
   }
   .new-collection-title {
     background: #fff;
@@ -778,7 +788,7 @@ body {
     transition: 0.4s;
   }
   .btn-readmore::after {
-    content: '';
+    content: "";
     display: block;
     width: 4rem;
     height: 4rem;
@@ -829,9 +839,9 @@ body {
     grid-template-columns: 55% 45%;
     grid-template-rows: 5rem 65.2rem 34.2rem;
     grid-template-areas:
-      'title title'
-      'model col-wrap'
-      'con con';
+      "title title"
+      "model col-wrap"
+      "con con";
   }
   .new-collection-title {
     background: #fff;
@@ -868,9 +878,9 @@ body {
     grid-template-columns: 65% 35%;
     grid-template-rows: 5rem 65.2rem 34.2rem;
     grid-template-areas:
-      'title title'
-      'model col-wrap'
-      'con con';
+      "title title"
+      "model col-wrap"
+      "con con";
   }
 }
 /* 타블렛 디자인 */
@@ -935,9 +945,9 @@ body {
     grid-template-columns: 65% 35%;
     grid-template-rows: 5rem 65.2rem 34.2rem;
     grid-template-areas:
-      'title title'
-      'model col-wrap'
-      'con con';
+      "title title"
+      "model col-wrap"
+      "con con";
   }
   .new-collection-title {
     background: #fff;
@@ -1097,10 +1107,10 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 5rem 50rem 30.5rem 34.5rem;
     grid-template-areas:
-      'title '
-      'model'
-      'col-wrap'
-      'con';
+      "title "
+      "model"
+      "col-wrap"
+      "con";
     overflow: hidden;
   }
 
@@ -1314,10 +1324,10 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 5rem 41rem 34rem 40rem;
     grid-template-areas:
-      'title '
-      'model'
-      'col-wrap'
-      'con';
+      "title "
+      "model"
+      "col-wrap"
+      "con";
     overflow: hidden;
   }
   .new-collection-title {
